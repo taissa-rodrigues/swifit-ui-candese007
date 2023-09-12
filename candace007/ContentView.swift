@@ -25,21 +25,21 @@ struct ContentView: View{
                         .cornerRadius(10)
                     VStack{
                         ZStack{
-                            Image("phineas")
+                            Image("phineas1")
                                 .resizable()
                                 .frame(width: 150, height: 150)
                                 .cornerRadius(10)
-                            Image("x")
+                            Image("x1")
                                 .resizable()
                                 .frame(width: 100, height: 100)
                                 .cornerRadius(10)
                         }
                         ZStack{
-                            Image("ferb")
+                            Image("ferb1")
                                 .resizable()
                                 .frame(width: 150, height: 150)
                                 .cornerRadius(10)
-                            Image("x")
+                            Image("x1")
                                 .resizable()
                                 .frame(width: 100, height: 100)
                                 .cornerRadius(10)
@@ -56,7 +56,7 @@ struct ContentView: View{
                         Text("Avançar")
                             .font(.headline)
                             .foregroundColor(.pink)
-                            .padding(.vertical,10)
+                            .padding(.vertical,12)
                             .background(Color.white)
                             .cornerRadius(15)
                     }
